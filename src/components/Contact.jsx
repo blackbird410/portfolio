@@ -16,7 +16,7 @@ const platforms = [
 
 function Platform({ type, link }) {
     return (
-        <a className="hover:scale-125 hover:text-primary transition ease-out duration-300" href={link} target="_blank">
+        <a className="icon" href={link} target="_blank">
             <Icon type={type}/>
         </a>
     );

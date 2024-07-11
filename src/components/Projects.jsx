@@ -17,10 +17,10 @@ function ProjectCard({
             <div className="m-4">
                 <div className="grid grid-cols-8">
                     <span className="font-bold col-span-6">{title}</span>
-                    <a className="text-2xl" href={ghLink} target="_blank">
+                    <a className="text-2xl icon" href={ghLink} target="_blank">
                         <Icon type={"Github"}/>
                     </a>
-                    <a className="text-2xl" href={link} target="_blank">
+                    <a className="text-2xl icon" href={link} target="_blank">
                         <Icon type={"Site"}/>
                     </a>
                 </div>
@@ -38,7 +38,7 @@ export default function Projects() {
             <Navbar links={getLinks("Projects")}/>
             <div className="main">
                 <h1 className="text-4xl text-center">My Projects</h1>
-                <div className="max-h-svh overflow-y-scroll mt-8 grid lg:grid-cols-3 border-gray-200 gap-10">
+                <div className="max-h-svh overflow-y-scroll mt-8 grid xl:grid-cols-3 border-gray-200 gap-10">
                     {
                         projects.map(p => 
                             <ProjectCard 

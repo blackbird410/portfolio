@@ -14,3 +14,7 @@
 .main {
     @apply px-16 py-6 md:col-span-2 bg-gray-100 animate-appear;
 }
+
+.icon {
+    @apply hover:scale-125 hover:text-primary transition ease-out duration-300; 
+}
