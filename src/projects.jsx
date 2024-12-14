@@ -1,6 +1,7 @@
 import cvApp from "./projects_img/cv-app.png";
 import todoApp from "./projects_img/todo-app.png";
 import sharliceWorkshop from "./projects_img/sharlice-workshop.png";
+import sharliceAdmin from "./projects_img/sharlice-admin.png";
 
 export const getRepoLink = (p) => {
   let repoLink = p.link.split("blackbird410.github.io");
@@ -16,6 +17,13 @@ export const projects = [
     githubLink: "",
     description: "A website for a local workshop",
     pictureLink: sharliceWorkshop,
+  },
+  {
+    name: "Sharlice Admin Page",
+    link: "https://workshop-admin.vercel.app/",
+    githubLink: "",
+    description: "An admin page for the workshop",
+    pictureLink: sharliceAdmin,
   },
   {
     name: "Todo App",
