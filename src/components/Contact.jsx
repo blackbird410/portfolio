@@ -3,10 +3,7 @@ import Icon from "./Icon";
 import Navbar from "./Navbar";
 
 const contacts = [
-    {type: "phone", detail: "+886123456789"},
     {type: "email", detail: "alus410@proton.me"},
-    {type: "website", detail: "www.awesomedev.com"},
-    {type: "address", detail: "The promised neverland"},
 ];
 
 const platforms = [
@@ -35,7 +32,7 @@ export default function Contact() {
     return (
         <div className="body">
             <Navbar links={getLinks("Contact")} /> 
-            <div className="main flex flex-col justify-between gap-4 lg:h-screen">
+            <div className="main flex flex-col justify-start gap-4 lg:h-screen">
                 <h1 className="text-4xl text-center">Contact Me</h1>
                 <h3 className="text-3xl opacity-30">If you have any project or need help. Get in touch</h3>
                 <div className="flex flex-col gap-4">

@@ -36,9 +36,9 @@ export default function Projects() {
     return (
         <div className="body">
             <Navbar links={getLinks("Projects")}/>
-            <div className="main">
+            <div className="main min-h-screen">
                 <h1 className="text-4xl text-center">My Projects</h1>
-                <div className="max-h-svh overflow-y-scroll mt-8 grid xl:grid-cols-3 border-gray-200 gap-10">
+                <div className="overflow-y-scroll mt-8 grid xl:grid-cols-3 border-gray-200 gap-10">
                     {
                         projects.map(p => 
                             <ProjectCard 

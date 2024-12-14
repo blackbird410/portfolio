@@ -15,18 +15,8 @@ const serviceList = [
             "Website Development",
             "Web Application Development",
             "eCommerce Solutions Development",
-            "Cybersecurity - Consulting - Publishing - Maintenance - Support",
         ],
     },
-    {
-        title: "UI/UX Design",
-        icon: "Cube",
-        services: [
-            "Landing Pages",
-            "Mobile App Design",
-            "User Flow",
-        ],
-    }
 ];
 
 function Service({icon, title, services}) {
