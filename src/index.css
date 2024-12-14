@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .card {
-    @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg; 
+  @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg;
 }
 
 .body {
-    @apply text-gray-600 font-body grid md:grid-cols-3;
+  @apply text-gray-600 font-body grid md:grid-cols-3;
 }
 
 .main {
-    @apply px-16 py-6 md:col-span-2 bg-gray-100 animate-appear;
+  @apply px-16 py-6 md:col-span-2 bg-gray-100 animate-appear;
 }
 
 .icon {
-    @apply hover:scale-125 hover:text-primary transition ease-out duration-300; 
+  @apply hover:scale-125 hover:text-primary transition ease-out duration-300;
 }

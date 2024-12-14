@@ -3,11 +3,11 @@ import todoApp from "./projects_img/todo-app.png";
 import sharliceWorkshop from "./projects_img/sharlice-workshop.png";
 
 export const getRepoLink = (p) => {
-    let repoLink = p.link.split("blackbird410.github.io");
-    return p.link.match("vercel")
-      ? p.githubLink
-      : `${repoLink[0]}github.com/blackbird410${repoLink[1]}`;
-} 
+  let repoLink = p.link.split("blackbird410.github.io");
+  return p.link.match("vercel")
+    ? p.githubLink
+    : `${repoLink[0]}github.com/blackbird410${repoLink[1]}`;
+};
 
 export const projects = [
   {
