@@ -55,7 +55,7 @@ export default function Homepage() {
         <div className="body">
             <Navbar links={getLinks("Home")} />
             
-            <div className="main flex flex-col justify-between items-start gap-8 lg:h-screen">
+            <div className="main flex flex-col justify-center items-start gap-8 lg:h-screen">
                 <div className="flex flex-col gap-y-3 items-start">
                     <div>
                         <h1 className="text-gray-400 text-3xl font-semibold">Hello! I'm</h1>
