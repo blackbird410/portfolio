@@ -14,12 +14,16 @@ function ProjectCard({ title, description, link, ghLink, picture }) {
       <div className="m-4">
         <div className="grid grid-cols-8">
           <span className="font-bold col-span-6">{title}</span>
-          <a className="text-2xl icon" href={ghLink} target="_blank">
-            <Icon type={"Github"} />
-          </a>
-          <a className="text-2xl icon" href={link} target="_blank">
-            <Icon type={"Site"} />
-          </a>
+          <div className="col-span-2 flex justify-end gap-4">
+            {ghLink !== "" && (
+              <a className="text-2xl icon" href={ghLink} target="_blank">
+                <Icon type={"Github"} />
+              </a>
+            )}
+            <a className="text-2xl icon" href={link} target="_blank">
+              <Icon type={"Site"} />
+            </a>
+          </div>
         </div>
         <span className="block text-gray-500 text-sm">{description}</span>
       </div>
