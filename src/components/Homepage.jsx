@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import Navbar from "./Navbar";
+import Resume from "../assets/Resume-Neil-Taison-Rigaud.pdf";
 
 const links = [
   { title: "Home", href: "/", isSelected: false },
@@ -61,7 +62,12 @@ export default function Homepage() {
           <div className="text-xl">
             Computer Science student at NDHU and Web Developper.
           </div>
-          <a className="text-primary btn border-primary md:border-2 hover:bg-primary hover:text-white flex p-2 gap-3 rounded transition ease-out duration-500 cursor-pointer">
+          <a
+            href={Resume}
+            download={"Resume-Neil-Taison-Rigaud.pdf"}
+            target="_blank"
+            className="text-primary btn border-primary md:border-2 hover:bg-primary hover:text-white flex p-2 gap-3 rounded transition ease-out duration-500 cursor-pointer"
+          >
             <span className="font-semibold">Get Resume</span>
             <Icon type={"Download"} />
           </a>
