@@ -2,6 +2,7 @@ import cvApp from "./projects_img/cv-app.png";
 import todoApp from "./projects_img/todo-app.png";
 import sharliceWorkshop from "./projects_img/sharlice-workshop.png";
 import sharliceAdmin from "./projects_img/sharlice-admin.png";
+import gameManagement from "./projects_img/game-management-app.png";
 
 export const getRepoLink = (p) => {
   let repoLink = p.link.split("blackbird410.github.io");
@@ -24,6 +25,13 @@ export const projects = [
     githubLink: "",
     description: "An admin page for the workshop",
     pictureLink: sharliceAdmin,
+  },
+  {
+    name: "Game Management",
+    link: "https://game-management-app.vercel.app/",
+    githubLink: "https://github.com/blackbird410/game-management-app",
+    description: "A game purchase and management app",
+    pictureLink: gameManagement,
   },
   {
     name: "Todo App",
