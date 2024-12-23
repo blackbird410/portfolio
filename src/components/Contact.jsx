@@ -19,7 +19,7 @@ function Platform({ type, link }) {
 
 function ContactDetail({ type, detail }) {
   return (
-    <div className="flex flex-col border border-gray-300 p-4">
+    <div className="flex flex-col p-4">
       <span className="font-bold">{type.toUpperCase()}:</span>
       <span className="p-4">{detail}</span>
     </div>
