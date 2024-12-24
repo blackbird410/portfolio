@@ -60,7 +60,7 @@ export default function Homepage() {
             </h1>
           </div>
           <div className="text-xl">
-            Computer Science student at NDHU, aspiring SWE and Full Stack Developer.
+            Computer Science student at NDHU, SWE and Full Stack Developer.
           </div>
           <a
             href={Resume}
