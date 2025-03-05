@@ -27,13 +27,6 @@ export const projects = [
     pictureLink: sharliceAdmin,
   },
   {
-    name: "Game Management",
-    link: "https://game-management-app.vercel.app/",
-    githubLink: "https://github.com/blackbird410/game-management-app",
-    description: "A game purchase and management app",
-    pictureLink: gameManagement,
-  },
-  {
     name: "Todo App",
     link: "https://neil-todo-app.vercel.app/",
     githubLink: "https://github.com/blackbird410/todo-app",
